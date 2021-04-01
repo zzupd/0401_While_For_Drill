@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        fieldset, legend, input, button, span {
+            font-size: 24px;
+        }
+        fieldset {
+            width: 500px;
+            padding: 20px;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script/script.js"></script>
+</head>
+
+<body>
+    <h1>while 실습</h1>
+    <h2>입력값1, 입력값2를 사용하여 범위사이의 값을 순서대로 출력</h2>
+
+    <fieldset>
+        <legend>입력</legend>
+        값1 <input type="text" size="3" id="no1"> &nbsp;&nbsp;
+        값2 <input type="text" size="3" id="no2"> &nbsp;&nbsp;
+        <button type="button">확인</button>
+    </fieldset>
+
+    <fieldset>
+        <legend>출력</legend>
+        <span id="res"></span>
+    </fieldset>
+
+</body>
+
+</html>
